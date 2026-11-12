@@ -12,7 +12,7 @@ const SITE_CONFIG = {
       desc: "之前有在幫遊戲裡的軍團做查詢系統 現在不玩了但網站還在 甚至每天都還有人在用",
       tech: ["Vercel", "JavaScript", "API"],
       link: "https://victor-data-inquiry.vercel.app/",
-      icon: "images/projects/victor.png"
+      image: "images/projects/victor.png"
     }
   ]
 };
