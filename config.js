@@ -8,7 +8,7 @@ const SITE_CONFIG = {
   projects: [
     {
       name: "維克托師團資料查詢系統",
-      desc: "之前有在幫遊戲裡的軍團做查詢系統 現在不玩了但網站還在 甚至每天都依舊有人在用",
+      desc: "之前有在幫遊戲裡的軍團做查詢系統 現在不玩了但網站還在 甚至每天都還有人在用",
       tech: ["Vercel", "JavaScript", "API"],
       link: "https://victor-data-inquiry.vercel.app/"
     }
