@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DevLog</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/github-dark.min.css" />
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="header-top">
+        <h1 id="site-title">DevLog</h1>
+        <button id="theme-toggle" title="切換深淺色">🌓</button>
+      </div>
+      <p id="site-bio" class="bio"></p>
+      <nav class="links">
+        <a id="home-link" href="#">首頁</a>
+        <a id="github-link" href="#" target="_blank">GitHub</a>
+      </nav>
+    </header>
+
+    <main id="home-view">
+      <section id="projects-section">
+        <h2>Projects</h2>
+        <div id="projects-list" class="grid"></div>
+      </section>
+
+      <section>
+        <h2>Posts</h2>
+        <ul id="posts-list" class="post-list"></ul>
+      </section>
+    </main>
+
+    <article id="post-view" class="hidden">
+      <button id="back-btn" class="back-btn">← 返回列表</button>
+      <div class="post-meta">
+        <span id="post-date"></span>
+      </div>
+      <h1 id="post-title"></h1>
+      <div id="post-content" class="markdown-body"></div>
+    </article>
+
+    <footer>
+      <span id="footer-text"></span>
+    </footer>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+  <script src="config.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
