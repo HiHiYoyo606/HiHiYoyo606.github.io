@@ -265,3 +265,12 @@ footer {
   color: var(--muted);
   font-size: 0.85rem;
 }
+
+.avatar {
+  width: 64px;
+  height: 64px;
+  border-radius: 12px;
+  object-fit: cover;
+  border: 1px solid var(--border);
+  margin-bottom: 12px;
+}

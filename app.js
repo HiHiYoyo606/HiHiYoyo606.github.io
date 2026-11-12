@@ -11,6 +11,12 @@ document.addEventListener("DOMContentLoaded", async () => {
   document.getElementById("home-link").onclick = (e) => { e.preventDefault(); showHome(); };
   document.getElementById("back-btn").onclick = showHome;
 
+  if (SITE_CONFIG.avatar) {
+    const avatar = document.getElementById("site-avatar");
+    avatar.src = SITE_CONFIG.avatar;
+    avatar.classList.remove("hidden");
+  }
+
   const toggleBtn = document.getElementById("theme-toggle");
   if (localStorage.getItem("theme") === "light") document.body.classList.add("light");
   toggleBtn.onclick = () => {
